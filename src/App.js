@@ -39,7 +39,12 @@ class App extends React.Component {
       return `${day}, ${date} ${month} ${year}`;
     }
     return (
-      <div className="app-warm">
+      <div className={(typeof this.state.weather.main != "undefined") 
+                      ?((this.state.weather.main.temp > 16)
+                      ?('app')
+                      :('app-warm'))
+                      :('app')
+                    }>
         <main>
           <div className="search-box">
             <input 
