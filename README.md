@@ -1,4 +1,4 @@
-# Simple Weather App With Create React App and OpenWeatherMap Api. 
+# Simple Weather App With Create React App and [OpenWeatherMap](https://openweathermap.org/) Api. 
 
 A simple weather app that uses stateful components and OpenWeatherMap api to display current weather forecast.
 
