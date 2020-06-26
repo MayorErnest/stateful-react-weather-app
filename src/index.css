@@ -12,14 +12,14 @@ body {
   background-image: url('./assets/coldbg.jpg');
   background-size: cover;
   background-position: bottom;
-  /**transition: 0.4 ease-out;**/
+  transition: 2500ms ease-out;
 }
 
 .app-warm {
   background-image: url('./assets/hotbg.jpg');
   background-size: cover;
   background-position: bottom;
-  /**transition: 0.4 ease-out;**/
+  transition: 2500ms ease-out;
 }
 
 main {
@@ -92,7 +92,7 @@ main {
 
 .weather {
   color: rgba(255, 255, 255);
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }

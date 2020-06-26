@@ -40,9 +40,9 @@ class App extends React.Component {
     }
     return (
       <div className={(typeof this.state.weather.main != "undefined") 
-                      ?((this.state.weather.main.temp > 16)
+                      ?(this.state.weather.main.temp < 19)
                       ?('app')
-                      :('app-warm'))
+                      :('app-warm')
                       :('app')
                     }>
         <main>
